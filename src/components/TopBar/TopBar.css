@@ -1,0 +1,13 @@
+.top-bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(141, 151, 128);
+  padding: 1vw 15vw;
+  position: sticky;
+  top: 0;
+}
+
+.top-bar-logo {
+  width: 2em;
+}

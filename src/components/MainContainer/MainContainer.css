@@ -1,0 +1,25 @@
+.main-container {
+  background-image: url('../../img/alex-loup-kOGx9eBTMds-unsplash.jpg');
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 0 10vw;
+  width: 100vw;
+}
+
+.main-container-nav-left {
+  background-color: rgba(91, 94, 87, 0.8);
+  color: #fff;
+  margin: 0 10vw;
+  padding: 4vw 4vw;
+  position: fixed;
+  width: 13vw;
+  left: 0;
+}
+
+.main-container-offers {
+  background-color: rgba(208, 217, 195, 1);
+  margin: 0;
+  padding: 4vw 4vw;
+  width: 50vw;
+}
