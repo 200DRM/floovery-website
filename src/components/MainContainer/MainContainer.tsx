@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import NavLeft from './NavLeft/NavLeft';
-import OffersList from './OffersList/OffersList';
+import ArticlesList from './ArticlesList/ArticlesList';
 
 import './MainContainer.css';
 
@@ -10,7 +10,7 @@ class MainContainer extends PureComponent {
     return (
       <div className="main-container">
         <NavLeft />
-        <OffersList />
+        <ArticlesList />
       </div>
     );
   }

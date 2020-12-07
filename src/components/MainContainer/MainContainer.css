@@ -1,25 +1,37 @@
 .main-container {
-  background-image: url('../../img/alex-loup-kOGx9eBTMds-unsplash.jpg');
   background-attachment: fixed;
+  background-color: rgb(248, 248, 248);
   display: flex;
   justify-content: center;
-  padding: 0 10vw;
-  width: 100vw;
+  padding: 0 15vw;
 }
 
 .main-container-nav-left {
-  background-color: rgba(91, 94, 87, 0.8);
-  color: #fff;
-  margin: 0 10vw;
-  padding: 4vw 4vw;
+  background-color:#fff;
+  margin: 0 15vw;
+  padding: 4vw;
   position: fixed;
-  width: 13vw;
+  width: 9.4vw;
   left: 0;
 }
 
-.main-container-offers {
-  background-color: rgba(208, 217, 195, 1);
-  margin: 0;
-  padding: 4vw 4vw;
-  width: 50vw;
+.main-container-articles-list {
+  background-color: rgb(108, 122, 95);
+  color: #fff;
+}
+
+.main-container-article {
+  padding: 0 0 0 25%;
+}
+
+.main-container-article-img {
+  width: 100%;
+}
+
+.main-container-article-h1 {
+  padding: 0 1vw;
+}
+
+.main-container-article-text-block {
+  padding: 0 1vw;
 }

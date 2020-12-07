@@ -1,8 +1,9 @@
 .top-bar {
   align-items: center;
+  color: rgb(233, 233, 233);
   display: flex;
   justify-content: space-between;
-  background-color: rgb(141, 151, 128);
+  background-color: rgb(140, 150, 124);
   padding: 1vw 15vw;
   position: sticky;
   top: 0;

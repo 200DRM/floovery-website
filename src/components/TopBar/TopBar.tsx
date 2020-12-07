@@ -9,7 +9,7 @@ class TopBar extends PureComponent {
       <div className="top-bar">
         <img alt='temp-img' className='top-bar-logo' src={tempImg} />
         <div>
-          <span>HOME</span>
+          <span><b>HOME</b></span>
         </div>
         <div>
           <span>SHOP</span>
