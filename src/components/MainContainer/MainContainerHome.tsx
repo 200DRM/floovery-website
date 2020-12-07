@@ -5,7 +5,7 @@ import ArticlesList from './ArticlesList/ArticlesList';
 import './MainContainer.css';
 
 
-class MainContainer extends PureComponent {
+class MainContainerHome extends PureComponent {
   render() {
     return (
       <div className="main-container">
@@ -16,4 +16,4 @@ class MainContainer extends PureComponent {
   }
 }
 
-export default MainContainer;
+export default MainContainerHome;

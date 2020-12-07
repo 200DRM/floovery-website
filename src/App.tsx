@@ -1,5 +1,8 @@
 import React, { PureComponent } from 'react';
-import MainContainer from './components/MainContainer/MainContainer';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import MainContainerHome from './components/MainContainer/MainContainerHome';
+import MainContainerShop from './components/MainContainer/MainContainerShop';
 import TopBar from './components/TopBar/TopBar';
 
 import './App.css';
@@ -8,10 +11,15 @@ import './App.css';
 class App extends PureComponent {
   render() {
     return (
-      <div className="app">
-        <TopBar />
-        <MainContainer />
-      </div>
+      <Router>
+        <Switch>
+          <div className="app">
+            <TopBar />
+            <Route component={MainContainerHome} path='/' exact />
+            <Route component={MainContainerShop} path='/shop' />
+          </div>
+        </Switch>
+      </Router>
     );
   }
 }
